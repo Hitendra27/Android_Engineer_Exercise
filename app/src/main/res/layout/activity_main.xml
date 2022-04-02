@@ -8,47 +8,80 @@
     tools:context=".MainActivity"
     android:background="@color/black">
 
-    <ImageView
-        android:id="@+id/greenflaglogoimage"
-        android:layout_width="300dp"
-        android:layout_height="250dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="37dp"
-        android:src="@drawable/logo_green_flag"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="1dp" />
+   <ImageView
+       android:id="@+id/greenflag_logo"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/logo_green_flag"
+       android:layout_marginStart="10dp"
+       android:layout_marginTop="100dp"
+       android:layout_marginEnd="10dp"
+       android:layout_marginBottom="10dp"
+       android:gravity="center" />
 
     <TextView
-        android:layout_width="151dp"
-        android:layout_height="254dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="112dp"
-        android:layout_marginBottom="192dp"
-        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Main_page1"
+        android:layout_below="@id/greenflag_logo"
+        android:paddingTop="40dp"
         android:text="GreenFlag customers can create an account to access"
         android:textColor="@color/white"
-        android:textSize="25sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="268dp" />
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
 
-    <Button
-        android:id="@+id/create_an_account"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/Main_page2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="132dp"
-        android:layout_marginBottom="105dp"
-        android:backgroundTint="@color/white"
-        android:text="Create an account"
-        android:textColor="@color/black"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="463dp" />
+        android:layout_below="@id/Main_page1"
+        android:layout_margin="5dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/tick"
+        android:gravity="center"
+        android:paddingTop="2dp"
+        android:text="Car health updates"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Main_page3"
+        android:layout_below="@id/Main_page2"
+        android:paddingTop="2dp"
+        android:text="Reguest a resue online"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/tick"
+        android:layout_margin="5dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Main_page4"
+        android:layout_below="@id/Main_page3"
+        android:text="Policy information"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/tick"
+        android:layout_margin="5dp"
+        android:gravity="center"/>
+
+ <Button
+     android:id="@+id/btn_create_account"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/Main_page4"
+     android:layout_marginTop="174dp"
+     android:layout_marginBottom="10dp"
+     android:backgroundTint="@color/teal_200"
+     android:padding="15dp"
+     android:text="Create an account"
+     android:textColor="@color/black" />
 
 </RelativeLayout>
 
