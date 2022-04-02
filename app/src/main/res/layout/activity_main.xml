@@ -9,9 +9,46 @@
     android:background="@color/black">
 
     <ImageView
+        android:id="@+id/greenflaglogoimage"
         android:layout_width="300dp"
         android:layout_height="250dp"
-        android:src="@drawable/logo_green_flag" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:src="@drawable/logo_green_flag"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:layout_width="151dp"
+        android:layout_height="254dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="192dp"
+        android:gravity="center"
+        android:text="GreenFlag customers can create an account to access"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <Button
+        android:id="@+id/create_an_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="105dp"
+        android:backgroundTint="@color/white"
+        android:text="Create an account"
+        android:textColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="463dp" />
 
 </RelativeLayout>
 
