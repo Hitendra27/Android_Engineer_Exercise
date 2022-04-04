@@ -13,9 +13,9 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:background="@drawable/logo_green_flag"
-       android:layout_marginStart="10dp"
+       android:layout_marginStart="40dp"
        android:layout_marginTop="100dp"
-       android:layout_marginEnd="10dp"
+       android:layout_marginEnd="40dp"
        android:layout_marginBottom="10dp"
        android:gravity="center" />
 
@@ -28,23 +28,27 @@
         android:text="GreenFlag customers can create an account to access"
         android:textColor="@color/white"
         android:textSize="25dp"
-        android:layout_margin="10dp"
+        android:fontFamily="@font/museosans_500"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
         android:gravity="center"/>
 
-    <TextView
-        android:id="@+id/Main_page2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/Main_page1"
-        android:layout_margin="5dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginBottom="20dp"
-        android:drawableLeft="@drawable/tick"
-        android:gravity="center"
-        android:paddingTop="2dp"
-        android:text="Car health updates"
-        android:textColor="@color/white"
-        android:textSize="20dp" />
+ <TextView
+     android:id="@+id/Main_page2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/Main_page1"
+     android:layout_marginStart="40dp"
+     android:layout_marginTop="5dp"
+     android:layout_marginEnd="40dp"
+     android:layout_marginBottom="5dp"
+     android:drawableLeft="@drawable/tick"
+     android:gravity="center"
+     android:paddingTop="2dp"
+     android:text="Car health updates"
+     android:textColor="@color/white"
+     android:textSize="20dp"
+     android:fontFamily="@font/museosans_300"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -54,10 +58,12 @@
         android:paddingTop="2dp"
         android:text="Reguest a resue online"
         android:textColor="@color/white"
+        android:fontFamily="@font/museosans_300"
         android:textSize="20dp"
         android:drawableLeft="@drawable/tick"
-        android:layout_margin="5dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -65,11 +71,13 @@
         android:id="@+id/Main_page4"
         android:layout_below="@id/Main_page3"
         android:text="Policy information"
+        android:fontFamily="@font/museosans_300"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:drawableLeft="@drawable/tick"
-        android:layout_margin="5dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"/>
 
  <Button
      android:id="@+id/btn_create_account"
@@ -78,10 +86,14 @@
      android:layout_below="@id/Main_page4"
      android:layout_marginTop="174dp"
      android:layout_marginBottom="10dp"
+     android:layout_marginStart="40dp"
+     android:layout_marginEnd="40dp"
      android:backgroundTint="@color/teal_200"
      android:padding="15dp"
      android:text="Create an account"
-     android:textColor="@color/black" />
+     android:fontFamily="@font/museosans_300"
+     android:textColor="@color/black"
+     />
 
 </RelativeLayout>
 
