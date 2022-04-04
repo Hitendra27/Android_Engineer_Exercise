@@ -54,7 +54,7 @@
         android:id="@+id/Main_page3"
         android:layout_below="@id/Main_page2"
         android:paddingTop="2dp"
-        android:text="Reguest a resue online"
+        android:text="Reguest a rescue online"
         android:textColor="@color/white"
         android:fontFamily="@font/museosans_300"
         android:textSize="20dp"
@@ -75,21 +75,20 @@
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"/>
 
- <Button
-     android:id="@+id/btn_create_account"
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:layout_below="@id/Main_page4"
-     android:layout_marginTop="174dp"
-     android:layout_marginBottom="10dp"
-     android:layout_marginStart="40dp"
-     android:layout_marginEnd="40dp"
-     android:backgroundTint="@color/teal_200"
-     android:padding="15dp"
-     android:text="Create an account"
-     android:fontFamily="@font/museosans_300"
-     android:textColor="@color/black"
-     />
+    <Button
+        android:id="@+id/btn_create_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Main_page4"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:fontFamily="@font/museosans_300"
+        android:padding="15dp"
+        android:text="Create an account"
+        android:textColor="@color/black" />
 
 </RelativeLayout>
 
